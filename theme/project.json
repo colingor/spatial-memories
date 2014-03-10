@@ -3,6 +3,7 @@
         "core": "master",
         "project": "master",
         "app": "0.0.0.1"
+    },
     "plugins":{
         "cordova": [
             "org.apache.cordova.console@0.2.7",
