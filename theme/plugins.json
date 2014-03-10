@@ -1,9 +1,0 @@
-{
-    "cordova": [
-        "org.apache.cordova.console@0.2.7",
-        "org.jboss.aerogear.cordova.geo"
-    ],
-    "fieldtrip": {
-        "geo-fences": "git@github.com:edina/fieldtrip-geo-fences.git"
-    }
-}
