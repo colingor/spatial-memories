@@ -1,0 +1,34 @@
+{
+    "home": {
+        "name": "Home",
+        "href": "#",
+        "class": "home-button",
+        "data-icon": "custom"
+    },
+    "map": {
+        "platforms": ["android", "ios"],
+        "name": "Map",
+        "href": "#",
+        "class": "map-button",
+        "data-icon": "custom"
+    },
+    "capture": {
+        "platforms": ["android", "ios"],
+        "name": "Capture",
+        "href": "capture.html",
+        "class": "capture-button",
+        "data-icon": "custom"
+    },
+    "records": {
+        "name": "Records",
+        "href": "saved-records.html",
+        "class": "map-button",
+        "data-icon": "custom"
+    },
+    "capture-audio": {
+        "name": "Cature Audio",
+        "href": "#",
+        "class": "capture-button",
+        "data-icon": "custom"
+    }
+}

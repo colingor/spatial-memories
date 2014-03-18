@@ -1,5 +1,43 @@
+
+
 /*** Spatial Memories CSS Customizations ***/
 
+/* hack to hide home page footer and standard buttons see https://github.com/edina/fieldtrip-open/issues/13 https://github.com/edina/fieldtrip-open/issues/12 */
+#home-page .ui-footer,
+#home-page h2,
+#home-page .ui-block-a,
+#home-page .ui-block-b,
+#home-page .ui-block-c{
+    display: none;
+}
+
+#gpscapture-page .ui-footer{
+    display: block;
+}
+
+#gpscapture-page .ui-footer .ui-block-a,
+#gpscapture-page .ui-footer .ui-block-b,
+#gpscapture-page .ui-footer .ui-block-c{
+    width: 0;
+}
+
+#gpscapture-page .ui-footer .ui-block-d,
+#gpscapture-page .ui-footer .ui-block-e{
+    width: 50%;
+}
+
+#home-page .nav-icons{
+    padding-top: 10em;
+    margin: 0 auto;
+    width: 10em;
+}
+
+/* stretch body to bottom when there is no footer */
+#annotate-gps-page .ui-footer,
+#saved-records-page .ui-footer{
+    height: 0;
+    display: none;
+}
 
 
 /* First breakpoint is 48em (768px). 3 column layout. Tiles 250x250 pixels incl. margin at the breakpoint. */
@@ -8,22 +46,22 @@
     /* Uncomment to enable rough grid layout */
 
     /* #saved-records-page .non-map-content { */
-    /*     padding: .5625em; /* 9px */ */
+    /*     padding: .5625em; /* 9px */
     /* } */
 
     /* Size grid elements */
 /*     #saved-records-page .ui-listview li.active { */
 /*         float: left; */
-/*         width: 30.9333% !important; /* 33.3333% incl. 2 x 1.2% margin */ */
+/*         width: 30.9333% !important; /* 33.3333% incl. 2 x 1.2% margin */
 /*         width: 45% !important; */
-/*         /* height: 14.5em; */ */
+/*         /* height: 14.5em; */
 /*         height: 230px; */
-/*         /* margin: .5625em 1.2% !important; */ */
+/*         /* margin: .5625em 1.2% !important; */
 /*         border: #2c3f62 solid 1px !important; */
 /*         margin-top: 1% !important; */
 /*  */
 /*     } */
-/* /*     #saved-records-page  .ui-listview li > .ui-btn { */ */
+/* /*     #saved-records-page  .ui-listview li > .ui-btn { */
 /*         -webkit-box-sizing: border-box; /* include padding and border in height so we can set it to 100% */ */
 /*         -moz-box-sizing: border-box; */
 /*         -ms-box-sizing: border-box; */
@@ -31,27 +69,27 @@
 /*         height: 100%; */
 /*     } */
 /*     #saved-records-page .ui-listview li.ui-li-has-thumb .ui-li-thumb { */
-/*         height: auto; /* To keep aspect ratio. */ */
+/*         height: auto; /* To keep aspect ratio. */
 /*         max-width: 100%; */
 /*         max-height: none; */
 /*     } */
-/* /*     /* Make all list items and anchors inherit the border-radius from the UL. */ */ */
+/* /*     /* Make all list items and anchors inherit the border-radius from the UL. */
 /*     #saved-records-page .ui-listview li, */
 /*     #saved-records-page .ui-listview li .ui-btn, */
 /*     #saved-records-page .ui-listview .ui-li-thumb { */
-/*         /* -webkit-border-radius: inherit; */ */
-/*         /* border-radius: inherit; */ */
+/*         /* -webkit-border-radius: inherit; */
+/*         /* border-radius: inherit; */
 /*     } */
-/*     /* Hide the icon */ */
+/*     /* Hide the icon */
 /*     #saved-records-page .ui-listview .ui-btn-icon-right:after { */
 /*         display: none; */
 /*     } */
-/*     /* Make text wrap. */ */
+/*     /* Make text wrap. */
 /*     #saved-records-page .ui-listview a, */
 /*     #saved-records-page .ui-listview p { */
 /*         white-space: normal; */
 /*         overflow: visible; */
-/*         /* position: absolute; */ */
+/*         /* position: absolute; */
 /*         left: 0; */
 /*         right: 0; */
 /*     } */
@@ -69,5 +107,3 @@
 /*     } */
 /*  */
 /* } */
-
-
