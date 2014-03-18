@@ -2,7 +2,7 @@
 
 /*** Spatial Memories CSS Customizations ***/
 
-/* hack to hide home page footer and standard buttons see https://github.com/edina/fieldtrip-open/issues/13 https://github.com/edina/fieldtrip-open/issues/12 */
+/* hack to hide home page footer and standard buttons see https://github.com/edina/fieldtrip-open/issues/13 and https://github.com/edina/fieldtrip-open/issues/12 */
 #home-page .ui-footer,
 #home-page h2,
 #home-page .ui-block-a,
@@ -107,3 +107,8 @@
 /*     } */
 /*  */
 /* } */
+
+.ui-content {
+    /* Background colour for water theme */
+    background-color : rgb(164, 164, 230) ;
+}
