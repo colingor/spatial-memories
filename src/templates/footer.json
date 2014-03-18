@@ -28,7 +28,7 @@
     "capture-audio": {
         "name": "Cature Audio",
         "href": "#",
-        "class": "capture-button",
+        "class": "annotate-audio-form",
         "data-icon": "custom"
     }
 }
