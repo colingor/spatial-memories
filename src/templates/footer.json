@@ -26,9 +26,9 @@
         "data-icon": "custom"
     },
     "capture-audio": {
-        "name": "Cature Audio",
+        "name": "Capture Image",
         "href": "#",
-        "class": "annotate-audio-form",
+        "class": "annotate-image-form",
         "data-icon": "custom"
     }
 }
