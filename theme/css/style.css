@@ -35,6 +35,7 @@
 /* stretch body to bottom when there is no footer */
 #annotate-page .ui-footer,
 #annotate-gps-page .ui-footer,
+#annotate-preview-page .ui-footer,
 #saved-records-page .ui-footer{
     height: 0;
     display: none;
