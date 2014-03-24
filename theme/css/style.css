@@ -36,6 +36,7 @@
 #annotate-page .ui-footer,
 #annotate-gps-page .ui-footer,
 #annotate-preview-page .ui-footer,
+#settings-page .ui-footer,
 #saved-records-page .ui-footer{
     height: 0;
     display: none;
