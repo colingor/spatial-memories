@@ -6,9 +6,9 @@
             "items": {
                 "item4": {
                     "div": {"class": "ui-block-d"},
-                    "a": {"class": "geofence", "href": ""},
+                    "a": {"class": "geofence", "href": "geofence.html"},
                     "img": {"src": "css/images/gps.png", "alt": "Capture Geofence"},
-                    "title": "Geofence"
+                    "title": "Geofence Here"
                 }
             }
         }

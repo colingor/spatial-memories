@@ -1,0 +1,12 @@
+{
+    "body": {
+        "title": "Title",
+        "activate": "Activate",
+        "rate-text": "Geofence Radius",
+        "radius-5": "5 meters",
+        "radius-10": "10 meters",
+        "radius-20": "20 meters",
+        "radius-30": "30 meters",
+        "radius-60": "60 meters"
+    }
+}

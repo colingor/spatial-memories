@@ -1,0 +1,42 @@
+<div id="geofence-page" data-role="page" data-theme="b">
+{{header}}
+  <div data-role="content">
+    <div class="non-map-body-white ui-overlay-shadow">
+      <form id="geofence-form" data-ajax="false" accept-charset="utf-8">
+        <div>
+          <label for="geofence-form-title">{{body["title"]}}</label>
+          <input id="geofence-form-title"
+                 type="text"
+                 value="geofence"
+                 required="true",
+                 maxlength="40">
+        </div>
+
+        <div class="ui-grid-b">
+          <div class="ui-block-a">
+            <a href="#" id="geofence-form-ok">
+              <img src="css/images/startgpscapture.png" alt="Create Geofence"></img>
+            </a>
+            <p>{{body["activate"]}}</p>
+          </div>
+
+          <div class="ui-block-b">
+		<select id="geofence-form-radius">
+		<option value="5">{{body["radius-5"]}}</option>
+		<option value="10">{{body["radius-10"]}}</option>
+		<option value="20">{{body["radius-20"]}}</option>
+		<option value="30">{{body["radius-30"]}}</option>
+		<option value="60">{{body["radius-60"]}}</option>
+		</select>
+		<p>{{body["radius-text"]}}</p>
+          </div>
+
+        </div>
+
+      </form>
+    </div>
+  </div>
+
+
+{{footer}}
+</div>
