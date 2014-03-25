@@ -30,5 +30,11 @@
         "href": "#",
         "class": "annotate-image-form",
         "data-icon": "custom"
+    },
+    "capture-gf": {
+        "name": "geofence",
+        "href": "geofence.html",
+        "class": "geofence",
+        "data-icon": "custom"
     }
 }
