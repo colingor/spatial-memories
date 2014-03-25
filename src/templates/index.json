@@ -1,9 +1,10 @@
 {
     "body": {
+        "title": "",
         "section1": {
             "items": {
-                "item2": {
-                    "div": {"class": "ui-block-d"},
+                "item1": {
+                    "div": {"class": "ui-block-a"},
                     "a": {
                         "class": "gps-track-start",
                         "href": "annotate-gps.html"
@@ -17,17 +18,41 @@
             }
         },
         "section2": {
+            "title": "",
             "items": {
+                "item1": {
+                    "div": {"class": "ui-block-a"},
+                        "a": {
+                            "class": "gps-track-start",
+                            "href": "settings.html"
+                        },
+                        "img": {
+                            "src": "plugins/gps-tracking/css/images/gps.png",
+                            "alt": "View Setting Page"},
+                        "title": "Settings"
+                },
                 "item2": {
-                    "div": {"class": "ui-block-d"},
-                    "a": {
-                        "class": "gps-track-start",
-                        "href": "settings.html"
-                    },
-                    "img": {
-                        "src": "plugins/gps-tracking/css/images/gps.png",
-                        "alt": "View Setting Page"},
-                    "title": "Settings"
+                    "div": {"class": "ui-block-b", "style": "display: none"},
+                    "a": {"class": "annotate-audio-form", "href": "#"},
+                    "img": {"src": "css/images/audio.png", "alt": "Capture Audio"},
+                    "title": "Audio"
+                },
+                "item3": {
+                    "div": {"class": "ui-block-c", "style": "display: none"},
+                    "a": {"class": "annotate-text-form", "href": "#"},
+                    "img": {"src": "css/images/text.png", "alt": "Capture Text"},
+                    "title": "Text"
+                }
+            }
+        },
+        "section3": {
+            "title": "",
+            "items": {
+                "item1": {
+                    "div": {"class": "ui-block-a", "style": "display: none"},
+                    "a": {"href": "saved-records.html"},
+                    "img": {"src": "css/images/documents.png", "alt": "Saved Records"},
+                    "title": "Records"
                 }
             }
         }

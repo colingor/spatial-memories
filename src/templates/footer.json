@@ -1,38 +1,19 @@
 {
     "home": {
-        "name": "Home",
-        "href": "#",
-        "class": "home-button",
-        "data-icon": "custom"
-    },
-    "map": {
-        "platforms": ["android", "ios"],
-        "name": "Map",
-        "href": "#",
-        "class": "map-button",
-        "data-icon": "custom"
-    },
-    "capture": {
-        "platforms": ["android", "ios"],
-        "name": "Capture",
-        "href": "capture.html",
-        "class": "capture-button",
-        "data-icon": "custom"
-    },
-    "records": {
         "name": "Records",
         "href": "saved-records.html",
         "class": "map-button",
         "data-icon": "custom"
     },
-    "capture-audio": {
+    "map": {
         "name": "Capture Image",
         "href": "#",
         "class": "annotate-image-form",
         "data-icon": "custom"
     },
-    "capture-gf": {
-        "name": "geofence",
+    "capture": {
+        "platforms": ["android", "ios"],
+        "name": "Capture",
         "href": "geofence.html",
         "class": "geofence",
         "data-icon": "custom"

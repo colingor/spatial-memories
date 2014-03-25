@@ -3,11 +3,8 @@
 /*** Spatial Memories CSS Customizations ***/
 
 /* hack to hide home page footer and standard buttons see https://github.com/edina/fieldtrip-open/issues/13 and https://github.com/edina/fieldtrip-open/issues/12 */
-#home-page .ui-footer,
-#home-page h2,
-#home-page .ui-block-a,
-#home-page .ui-block-b,
-#home-page .ui-block-c{
+/*#home-page .ui-footer,*/
+#home-page h2{
     display: none;
 }
 
@@ -30,16 +27,6 @@
     padding-top: 10em;
     margin: 0 auto;
     width: 10em;
-}
-
-/* stretch body to bottom when there is no footer */
-#annotate-page .ui-footer,
-#annotate-gps-page .ui-footer,
-#annotate-preview-page .ui-footer,
-#settings-page .ui-footer,
-#saved-records-page .ui-footer{
-    height: 0;
-    display: none;
 }
 
 .ui-content {
