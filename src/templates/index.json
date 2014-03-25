@@ -1,0 +1,35 @@
+{
+    "body": {
+        "section1": {
+            "items": {
+                "item2": {
+                    "div": {"class": "ui-block-d"},
+                    "a": {
+                        "class": "gps-track-start",
+                        "href": "annotate-gps.html"
+                    },
+                    "img": {
+                        "src": "plugins/gps-tracking/css/images/gps.png",
+                        "alt": "View Map"
+                    },
+                    "title": "Start"
+                }
+            }
+        },
+        "section2": {
+            "items": {
+                "item2": {
+                    "div": {"class": "ui-block-d"},
+                    "a": {
+                        "class": "gps-track-start",
+                        "href": "settings.html"
+                    },
+                    "img": {
+                        "src": "plugins/gps-tracking/css/images/gps.png",
+                        "alt": "View Setting Page"},
+                    "title": "Settings"
+                }
+            }
+        }
+    }
+}
