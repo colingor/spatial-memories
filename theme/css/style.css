@@ -8,6 +8,8 @@
     display: none;
 }
 
+
+/*
 #gpscapture-page .ui-footer{
     display: block;
 }
@@ -19,9 +21,9 @@
 }
 
 #gpscapture-page .ui-footer .ui-block-d,
-#gpscapture-page .ui-footer .ui-block-e{
+//#gpscapture-page .ui-footer .ui-block-e{
     width: 50%;
-}
+}*/
 
 #home-page .nav-icons{
     padding-top: 10em;

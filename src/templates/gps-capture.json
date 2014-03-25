@@ -1,0 +1,34 @@
+{  "popups": {
+        "popup1":{
+            "template": "annotation-detail-popup.html",
+            "data": {
+            }
+        }
+    }
+    ,
+    "footer":{
+       "home": {
+        "name": "Records",
+        "href": "saved-records.html",
+        "class": "map-button",
+        "data-icon": "custom"
+    },
+    "map": {
+        "name": "Capture Image",
+        "href": "#",
+        "class": "annotate-image-form",
+        "data-icon": "custom"
+    },
+    "capture": {
+        "platforms": ["android", "ios"],
+        "name": "Capture",
+        "href": "geofence.html",
+        "class": "geofence",
+        "data-icon": "custom"
+    }
+
+    
+    
+    }
+
+}

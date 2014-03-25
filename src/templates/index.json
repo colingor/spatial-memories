@@ -56,5 +56,32 @@
                 }
             }
         }
+    },
+    "footer": {
+       "home": {
+        "name": "Records",
+        "href": "saved-records.html",
+        "class": "map-button",
+        "data-icon": "custom",
+        "style": "display: none"
+    },
+    "map": {
+        "name": "Capture Image",
+        "href": "#",
+        "class": "annotate-image-form",
+        "data-icon": "custom",
+        "style": "display: none"
+    },
+    "capture": {
+        "platforms": ["android", "ios"],
+        "name": "Capture",
+        "href": "geofence.html",
+        "class": "geofence",
+        "data-icon": "custom",
+        "style": "display: none"
+    }
+
+
+    
     }
 }
