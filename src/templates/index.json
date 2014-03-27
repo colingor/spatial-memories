@@ -22,17 +22,43 @@
             "items": {
                 "item1": {
                     "div": {"class": "ui-block-a"},
-                        "a": {
-                            "class": "gps-track-start",
-                            "href": "settings.html"
-                        },
-                        "img": {
-                            "src": "plugins/gps-tracking/css/images/gps.png",
-                            "alt": "View Setting Page"},
-                        "title": "Settings"
+                    "a": {
+                        "class": "gps-track-start",
+                        "href": "settings.html"
+                    },
+                    "img": {
+                        "src": "plugins/gps-tracking/css/images/gps.png",
+                        "alt": "View Setting Page"
+                    },
+                    "title": "Settings"
                 },
-                "item2": {},
-                "item3": {}
+                "item2":{},
+                "item3":{},
+                "item4": {
+                    "div": {
+                        "class": "ui-block-b sync-login",
+                        "id": "home-content-login"
+                    },
+                    "a": {"href": "#"},
+                    "img": {
+                        "src": "plugins/sync/css/images/login-large.png",
+                        "alt": "Login"
+                    },
+                    "title": "Login"
+                },
+                "item5": {
+                    "div": {
+                        "id": "home-content-upload",
+                        "class": "ui-block-c sync-upload-button",
+                        "style": "display:none;"
+                    },
+                    "a": {"href": "#"},
+                    "img": {
+                        "src": "plugins/sync/css/images/uploadrecords-main.png",
+                        "alt": "Upload Records"
+                    },
+                    "title": "Upload Records"
+                }
             }
         },
         "section3": {}

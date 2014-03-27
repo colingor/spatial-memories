@@ -1,34 +1,13 @@
-
-
 /*** Spatial Memories CSS Customizations ***/
 
-/* hack to hide home page footer and standard buttons see https://github.com/edina/fieldtrip-open/issues/13 and https://github.com/edina/fieldtrip-open/issues/12 */
-/*#home-page .ui-footer,*/
 #home-page h2{
     display: none;
 }
 
-
-/*
-#gpscapture-page .ui-footer{
-    display: block;
-}
-
-#gpscapture-page .ui-footer .ui-block-a,
-#gpscapture-page .ui-footer .ui-block-b,
-#gpscapture-page .ui-footer .ui-block-c{
-    width: 0;
-}
-
-#gpscapture-page .ui-footer .ui-block-d,
-//#gpscapture-page .ui-footer .ui-block-e{
-    width: 50%;
-}*/
-
 #home-page .nav-icons{
     padding-top: 10em;
     margin: 0 auto;
-    width: 10em;
+    width: 20em;
 }
 
 .ui-content {
