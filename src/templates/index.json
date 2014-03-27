@@ -31,57 +31,12 @@
                             "alt": "View Setting Page"},
                         "title": "Settings"
                 },
-                "item2": {
-                    "div": {"class": "ui-block-b", "style": "display: none"},
-                    "a": {"class": "annotate-audio-form", "href": "#"},
-                    "img": {"src": "css/images/audio.png", "alt": "Capture Audio"},
-                    "title": "Audio"
-                },
-                "item3": {
-                    "div": {"class": "ui-block-c", "style": "display: none"},
-                    "a": {"class": "annotate-text-form", "href": "#"},
-                    "img": {"src": "css/images/text.png", "alt": "Capture Text"},
-                    "title": "Text"
-                }
+                "item2": {},
+                "item3": {}
             }
         },
-        "section3": {
-            "title": "",
-            "items": {
-                "item1": {
-                    "div": {"class": "ui-block-a", "style": "display: none"},
-                    "a": {"href": "saved-records.html"},
-                    "img": {"src": "css/images/documents.png", "alt": "Saved Records"},
-                    "title": "Records"
-                }
-            }
-        }
+        "section3": {}
     },
     "footer": {
-       "home": {
-        "name": "Records",
-        "href": "saved-records.html",
-        "class": "map-button",
-        "data-icon": "custom",
-        "style": "display: none"
-    },
-    "map": {
-        "name": "Capture Image",
-        "href": "#",
-        "class": "annotate-image-form",
-        "data-icon": "custom",
-        "style": "display: none"
-    },
-    "capture": {
-        "platforms": ["android", "ios"],
-        "name": "Capture",
-        "href": "geofence.html",
-        "class": "geofence",
-        "data-icon": "custom",
-        "style": "display: none"
-    }
-
-
-    
     }
 }
