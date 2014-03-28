@@ -32,27 +32,31 @@
                     },
                     "title": "Settings"
                 },
-                "item2":{},
-                "item3":{},
-                "item4": {
+                "item2": {
                     "div": {
                         "class": "ui-block-b sync-login",
                         "id": "home-content-login"
                     },
-                    "a": {"href": "#"},
+                    "a": {
+                        "class": "login-button",
+                        "href": "#"
+                    },
                     "img": {
                         "src": "plugins/sync/css/images/login-large.png",
                         "alt": "Login"
                     },
                     "title": "Login"
                 },
-                "item5": {
+                "item3": {
                     "div": {
                         "id": "home-content-upload",
                         "class": "ui-block-c sync-upload-button",
                         "style": "display:none;"
                     },
-                    "a": {"href": "#"},
+                    "a": {
+                        "class": "upload-button",
+                        "href": "#"
+                    },
                     "img": {
                         "src": "plugins/sync/css/images/uploadrecords-main.png",
                         "alt": "Upload Records"
