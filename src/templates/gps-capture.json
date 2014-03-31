@@ -11,8 +11,21 @@
                 },
                 "value": "Stop"
             },
-            "item2": {},
-            "item3": {}
+            "item2": {
+                "a": {
+                    "id": "gpscapture-play",
+                    "data-icon": "custom"
+                },
+                "value": "Start"
+            },
+            "item3": {
+                "a": {
+                    "id": "gpscapture-records",
+                    "href": "saved-records.html",
+                    "data-icon": "custom"
+                },
+                "value": "Records"
+            }
         }
     },
     "popups": {
@@ -36,7 +49,6 @@
             "data-icon": "custom"
         },
         "capture": {
-            "platforms": ["android", "ios"],
             "name": "Capture",
             "href": "geofence.html",
             "class": "geofence",
