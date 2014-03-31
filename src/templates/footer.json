@@ -1,21 +1,20 @@
 {
     "home": {
-        "name": "Records",
-        "href": "saved-records.html",
-        "class": "map-button",
+        "name": "Photo",
+        "href": "#",
+        "class": "photo-button",
         "data-icon": "custom"
     },
     "map": {
-        "name": "Capture Image",
+        "name": "Audio",
         "href": "#",
-        "class": "annotate-image-form",
+        "class": "audio-button",
         "data-icon": "custom"
     },
     "capture": {
-        "platforms": ["android", "ios"],
-        "name": "Capture",
-        "href": "geofence.html",
-        "class": "geofence",
+        "name": "Text",
+        "href": "#",
+        "class": "text-button",
         "data-icon": "custom"
     }
 }
