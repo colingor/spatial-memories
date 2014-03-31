@@ -19,7 +19,7 @@
         ],
         "fieldtrip": {
             "gps-tracking": "git@github.com:edina/fieldtrip-gps-tracking.git",
-            "geo-fences": "git@github.com:edina/fieldtrip-geo-fences.git",
+            "spatial-memories": "git@github.com:edina/fieldtrip-spatial-memories.git",
             "sync": "git@github.com:edina/fieldtrip-sync.git"
         }
     }
