@@ -14,3 +14,18 @@
     /* Background colour for water theme */
     background-color : rgb(76, 112, 230) ;
 }
+
+.photo-button .ui-icon{
+    background: url("images/photo-footer.png") 50% 50% no-repeat;
+    background-size: 30px 30px;
+}
+
+.audio-button .ui-icon{
+    background: url("images/audio-footer.png") 50% 50% no-repeat;
+    background-size: 30px 30px;
+}
+
+.text-button .ui-icon{
+    background: url("images/text-footer.png") 50% 50% no-repeat;
+    background-size: 30px 30px;
+}
