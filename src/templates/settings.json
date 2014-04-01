@@ -1,0 +1,12 @@
+{
+    "footer":{
+        "home": {
+            "name": "Home",
+            "href": "index.html",
+            "class": "home-button",
+            "data-icon": "custom"
+        },
+        "map":{},
+        "capture": {}
+    }
+}
