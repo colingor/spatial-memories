@@ -29,3 +29,8 @@
     background: url("images/text-footer.png") 50% 50% no-repeat;
     background-size: 30px 30px;
 }
+
+#gpscapture-records .ui-icon{
+    background: url("images/records-header.png") 50% 50% no-repeat;
+    background-size: 30px 30px;
+}
