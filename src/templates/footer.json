@@ -1,12 +1,12 @@
 {
     "home": {
-        "name": "Photo",
+        "name": "Pictures",
         "href": "#",
         "class": "photo-button",
         "data-icon": "custom"
     },
     "map": {
-        "name": "Audio",
+        "name": "Sound",
         "href": "#",
         "class": "audio-button",
         "data-icon": "custom"
