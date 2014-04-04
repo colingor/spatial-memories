@@ -6,7 +6,17 @@
             "class": "home-button",
             "data-icon": "custom"
         },
-        "map":{},
-        "capture": {}
+        "map": {
+            "name": "Map",
+            "href": "gps-capture.html",
+            "class": "map-button",
+            "data-icon": "custom"
+        },
+        "capture": {
+            "name": "Records",
+            "href": "saved-records.html",
+            "class": "records-button",
+            "data-icon": "custom"
+        }
     }
 }
