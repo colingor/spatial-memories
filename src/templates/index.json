@@ -33,35 +33,8 @@
                     "title": "Settings"
                 },
                 "item2": {
-                    "div": {
-                        "class": "ui-block-b sync-login",
-                        "id": "home-content-login"
-                    },
-                    "a": {
-                        "class": "login-button",
-                        "href": "#"
-                    },
-                    "img": {
-                        "src": "plugins/sync/css/images/login-large.png",
-                        "alt": "Login"
-                    },
-                    "title": "Login"
                 },
                 "item3": {
-                    "div": {
-                        "id": "home-content-upload",
-                        "class": "ui-block-c sync-upload-button",
-                        "style": "display:none;"
-                    },
-                    "a": {
-                        "class": "upload-button",
-                        "href": "#"
-                    },
-                    "img": {
-                        "src": "plugins/sync/css/images/uploadrecords-main.png",
-                        "alt": "Upload Records"
-                    },
-                    "title": "Upload Records"
                 }
             }
         },
