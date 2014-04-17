@@ -14,7 +14,8 @@
             "org.apache.cordova.media@0.2.8",
             "org.apache.cordova.media-capture@0.2.7",
             "org.apache.cordova.plugin.softkeyboard@1.0.3",
-            "https://github.com/benismobile/aerogear-geo-cordova.git"
+            "https://github.com/benismobile/aerogear-geo-cordova.git",
+            "https://github.com/edina/spatial-memories-custom-camera"
         ],
         "fieldtrip": {
             "gps-tracking": "git@github.com:edina/fieldtrip-gps-tracking.git",
