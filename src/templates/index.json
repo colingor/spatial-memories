@@ -7,7 +7,7 @@
                     "div": {"class": "ui-block-a"},
                     "a": {
                         "class": "gps-track-start",
-                        "href": "annotate-gps.html"
+                        "href": "gps-capture.html"
                     },
                     "img": {
                         "src": "plugins/gps-tracking/css/images/gps.png",
