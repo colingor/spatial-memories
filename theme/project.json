@@ -1,6 +1,6 @@
 {
     "versions":{
-        "core": "master",
+        "core": "spatial-memories",
         "project": "0.0.0.1"
     },
     "plugins":{
