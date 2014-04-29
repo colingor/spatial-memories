@@ -4,6 +4,10 @@
     display: none;
 }
 
+.ui-header h1 {
+    width: 45%;
+}
+
 #home-page .nav-icons{
     padding-top: 10em;
     margin: 0 auto;
