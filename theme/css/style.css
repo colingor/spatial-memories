@@ -35,3 +35,18 @@
     background: url("images/records-header.png") 50% 50% no-repeat;
     background-size: 30px 30px;
 }
+
+/* Grid/List overides changes made by sync plugin */
+#saved-records-page-header h2, #saved-records-page-header{
+    background: none;
+    color: black; 
+}
+
+#saved-records-page-header > .ui-block-a {
+    width: 50%;
+}
+
+#saved-records-page-header .ui-block-b{
+    width: 50%;
+}
+
