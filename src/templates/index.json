@@ -6,14 +6,15 @@
                 "item1": {
                     "div": {"class": "ui-block-a"},
                     "a": {
-                        "class": "gps-track-start",
+                        "class": "gps-track-start img_custom",
                         "href": "gps-capture.html"
                     },
                     "img": {
-                        "src": "plugins/gps-tracking/css/images/gps.png",
-                        "alt": "View Map"
+                        "style": "width:60px; height:60px;",
+			"src": "plugins/spatial-memories/css/images/maps_90_90_track.png",
+                        "alt": "View Map And Tracks"
                     },
-                    "title": "Start"
+                    "title": "View Map and Tracks"
                 }
             }
         },
