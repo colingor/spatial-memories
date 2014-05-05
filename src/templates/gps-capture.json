@@ -21,7 +21,7 @@
             "item3": {
                 "a": {
                     "id": "gpscapture-records",
-                    "href": "saved-records.html",
+                    "href": "saved-tracks-records.html",
                     "data-icon": "custom"
                 },
                 "value": "Records"

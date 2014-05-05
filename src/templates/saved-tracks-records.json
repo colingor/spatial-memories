@@ -1,0 +1,60 @@
+{
+    "body": {
+        "view-records": "View Tracks/Records",
+        "buttons-toggle" : {
+            "records-tracks":{
+                "id" : "records-tracks",
+                "data-role": "button",
+                "data-icon": "bars",
+                "data-theme": "c",
+                "value": "Tracks"
+            },
+            "records-annotations":{
+                "id" : "records-annotations",
+                "data-role": "button",
+                "data-icon": "grid",
+                "data-theme": "c",
+                "value": "Records"
+            }
+        }
+    },
+    "popups": {
+        "popup1":{
+            "template": "saved-records-popup1.html",
+            "data": {
+                "question": "Are you sure you want to delete record",
+                "cancel": "Cancel",
+                "delete": "Delete"
+            }
+        },
+        "popup2":{
+            "template": "saved-records-popup2.html",
+            "data": {
+            }
+        }
+    },
+    "templates": {
+        "saved-records-list-template": "saved-records-list-template.html"
+    },
+    "footer":{
+        "home": {
+            "name": "Home",
+            "href": "index.html",
+            "class": "home-button",
+            "data-icon": "custom"
+        },
+        "map": {
+            "name": "Map",
+            "href": "gps-capture.html",
+            "class": "map-button",
+            "data-icon": "custom"
+        },
+        "capture": {
+            "name": "Records",
+            "href": "saved-records.html",
+            "class": "records-button",
+            "data-icon": "custom"
+        }
+    }
+
+}
