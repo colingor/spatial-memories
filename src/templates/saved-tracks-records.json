@@ -51,7 +51,7 @@
         },
         "capture": {
             "name": "Records",
-            "href": "saved-records.html",
+            "href": "saved-tracks-records.html",
             "class": "records-button",
             "data-icon": "custom"
         }
