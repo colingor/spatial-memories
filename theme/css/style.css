@@ -108,6 +108,7 @@ li.active .saved-records-list-synced-false {
 
 #saved-records-list-list li.active div.ui-block-c {
     margin-right: 1%;
+    /* display:none; */
 }
 
 #saved-records-list-list li.active div.ui-block-b {
@@ -223,3 +224,9 @@ li.active .saved-records-list-synced-false {
     color: #2c3f62;
 }
 
+
+/* Display all extra record info on new line */
+.record-extra p {
+    clear: both;
+    font-size: 15pt;
+}
