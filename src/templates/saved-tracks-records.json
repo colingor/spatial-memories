@@ -1,6 +1,6 @@
 {
     "body": {
-        "view-records": "View Tracks/Records",
+        "view-records": "",
         "buttons-toggle" : {
             "records-tracks":{
                 "id" : "records-tracks",

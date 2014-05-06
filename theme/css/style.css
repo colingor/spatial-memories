@@ -50,6 +50,7 @@
 #saved-records-page-header h2, #saved-records-page-header{
     background: none !important;
     color: black !important; 
+    padding: 10px !important;
 }
 
 #saved-records-page-header > .ui-block-a {
@@ -57,13 +58,13 @@
 }
 
 #saved-records-page-header .ui-block-b{
-    width: 50%;
+    width: 60%;
 }
 
 #saved-tracks-records-page .ui-listview{
-    padding-top: 0.2em;
-    padding: 0;
-    margin: 0 !important;
+    padding-top: 10px;
+    /* padding: 0; */
+    /* margin: 0 !important; */
 }
 
 #saved-tracks-records-page .ui-listview ul{
@@ -73,8 +74,8 @@
 #saved-tracks-records-page .ui-listview li{
     margin: 0 !important;
     padding: 0 !important;
-    margin-left: 0.5em !important;
-    margin-right: 0.5em !important;
+    /* margin-left: 0.5em !important; */
+    /* margin-right: 0.5em !important; */
     border: none;
     border-bottom: #2c3f62 solid 1px;
 }
@@ -121,7 +122,8 @@ li.active .saved-records-list-synced-false {
 
 @media (min-width: 320px) {
     #saved-tracks-records-page .ui-listview li.active {
-        width: 45% !important;
+        /* width: 45% !important; */
+        width: 50% !important;
     }
 }
 
@@ -175,11 +177,16 @@ li.active .saved-records-list-synced-false {
 }
 
 
-/* delete button */
-#saved-records-list .ui-block-c{
-    width: 15%;
-    background-color: rgba(255, 255, 255, 1);
+/* delete button - different width when active */
+#saved-records-list .active .ui-block-c{
+    width: 21%;
+    float: right;
 }
+#saved-records-list .ui-block-c{
+    width: 11%;
+    float: right;
+}
+
 
 #settings-page h2,
 #annotate-preview-page h2,
@@ -191,5 +198,28 @@ li.active .saved-records-list-synced-false {
     padding-left: 1em;
     color: white;
     background: #2c3f62;
+}
+
+
+.non-map-body-white{
+    position: relative;
+    left: 0%;
+    background: white;
+    color: #2c3f62;
+    min-height: 96%;
+    height: 100%;
+    width: 100%;
+    border-radius: 0px;
+    margin-top: 0em;
+    margin-bottom: 0.5em;
+    overflow: scroll;
+}
+
+.non-map-content {
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-top: 18px;
+    background: white;
+    color: #2c3f62;
 }
 
