@@ -19,7 +19,7 @@
             "https://github.com/edina/spatial-memories-custom-camera"
         ],
         "fieldtrip": {
-            "gps-tracking": "git@github.com:edina/fieldtrip-gps-tracking.git",
+            "gps-tracking": "git@github.com:edina/fieldtrip-gps-tracking.git -b spatial-memories",
             "spatial-memories": "git@github.com:edina/fieldtrip-spatial-memories.git",
             "sync": "git@github.com:edina/fieldtrip-sync.git"
         }
