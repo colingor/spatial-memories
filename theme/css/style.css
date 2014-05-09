@@ -242,3 +242,18 @@ li.active .saved-records-list-synced-false {
     max-width: 100% !important;
     height: 100% !important;
 }
+
+#annotation-title{
+    background-image: none;
+    width: 100%;
+    padding-top: 0.4em !important; 
+    padding-right: 0px !important; 
+    padding-left: 0px !important;
+    padding-bottom: 0.6em !important; 
+    margin-left: 0px !important;
+    text-align: center !important;
+}
+
+#map-record-popup-text{
+    margin-top : 30%;   
+}
