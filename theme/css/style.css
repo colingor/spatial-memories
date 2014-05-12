@@ -232,13 +232,14 @@ li.active .saved-records-list-synced-false {
 }
 
 #map-record-popup {
-    height: 95%;
+    height: 100%;
 }
 
 #map-record-popup-popup{
     top: 0px !important;
     left: 0px !important ;
     z-index: 10000 !important;
+    width: 100% !important;
     max-width: 100% !important;
     height: 100% !important;
 }
@@ -254,6 +255,15 @@ li.active .saved-records-list-synced-false {
     text-align: center !important;
 }
 
+/* Margin to offset from header */
 #map-record-popup-text{
-    margin-top : 30%;   
+    margin-top: 43px;   
+}
+
+#map-record-popup-text img{
+    width : 100%;
+}
+
+#map-record-popup {
+    padding : 0em;
 }
