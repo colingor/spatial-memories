@@ -231,6 +231,10 @@ li.active .saved-records-list-synced-false {
     font-size: 15pt;
 }
 
+.record-extra img{
+    width: 100%;
+}
+
 #map-record-popup {
     height: 100%;
 }
@@ -266,4 +270,8 @@ li.active .saved-records-list-synced-false {
 
 #map-record-popup {
     padding : 0em;
+}
+
+#audio-icon {
+    width:100%;
 }
