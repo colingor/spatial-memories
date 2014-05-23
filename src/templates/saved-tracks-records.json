@@ -41,19 +41,23 @@
             "name": "Home",
             "href": "index.html",
             "class": "home-button",
-            "data-icon": "custom"
+            "data-icon": "custom",
+            "aria-label": "Goto App Home"
         },
         "map": {
             "name": "Map",
             "href": "gps-capture.html",
             "class": "map-button",
-            "data-icon": "custom"
+            "data-icon": "custom",
+            "aria-label": "Go back to Map View"
         },
         "capture": {
             "name": "Records",
             "href": "saved-tracks-records.html",
             "class": "records-button",
-            "data-icon": "custom"
+            "data-icon": "custom",
+            "aria-label": "Stay on Digital Memories Views"
+            
         }
     }
 
