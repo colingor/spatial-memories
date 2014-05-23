@@ -4,8 +4,9 @@
         "href": "#",
         "class": "photo-button",
         "data-icon": "custom",
-        "aria-label": "Open Camera to make a picture memory. Button remains disabled if not started recording track",
-        "aria-disabled": true ,
+        "aria-label": "Open Camera to make a picture memory.",
+        "aria-disabled": false,
+        "disabled": false,
         "role": "menu-item"
     },
     "map": {
@@ -13,8 +14,9 @@
         "href": "#",
         "class": "audio-button",
         "data-icon": "custom",
-        "aria-label": "Open Audio recorder to make a sound memory. Button remains disabled if not started recording track",
-         "aria-disabled": true ,
+        "aria-label": "Open Audio recorder to make a sound memory.",
+         "aria-disabled": false ,
+        "disabled": false,
         "role": "menu-item"
     },
     "capture": {
@@ -22,8 +24,9 @@
         "href": "#",
         "class": "text-button",
         "data-icon": "custom",
-        "aria-label": "Open Text editor to make a text memory. Button remains disabled if not started recording track",
-         "aria-disabled": true ,
+        "aria-label": "Open Text editor to make a text memory.",
+         "aria-disabled": false ,
+         "disabled": false,
         "role": "menu-item"
     }
 }
