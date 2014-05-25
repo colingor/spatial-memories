@@ -11,7 +11,7 @@
                     "data-label": "Stop recording current track",
                     "aria-label": "Stop recording current track",
                     "data-position-to": "window",
-                    "role": "navigation"
+                    "role": "button"
                 },
                 "value": "Stop Track"
             },
@@ -22,7 +22,7 @@
                     "data-icon": "custom",
                    
                     "aria-label": "Start recording a new track",
-                    "role": "navigation"
+                    "role": "button"
                 },
                 "value": "Start Track"
             },
@@ -33,7 +33,7 @@
                     "data-icon": "custom",
                     
                     "aria-label": "Goto Grid View of Digital Memories for open track",
-                    "role": "navigation",
+                    "role": "button",
                     "aria-flowto": "gps-capture-footer"
                     
                 },

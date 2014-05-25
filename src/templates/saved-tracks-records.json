@@ -7,14 +7,14 @@
                 "data-role": "button",
                 "data-icon": "bars",
                 "data-theme": "c",
-                "value": "Tracks"
+                "value": "Memory Tracks"
             },
             "records-annotations":{
                 "id" : "records-annotations",
                 "data-role": "button",
                 "data-icon": "grid",
                 "data-theme": "c",
-                "value": "Records"
+                "value": "Digital Memories"
             }
         }
     },
@@ -52,7 +52,7 @@
             "aria-label": "Go back to Map View"
         },
         "capture": {
-            "name": "Records",
+            "name": "Digital Memories",
             "href": "saved-tracks-records.html",
             "class": "records-button",
             "data-icon": "custom",
