@@ -7,7 +7,7 @@
                     "href": "#gpscapture-confirm-popup",
                     "data-icon": "custom",
                     "data-rel": "popup",
-                    
+                    "tabindex": 1,
                     "data-label": "Stop recording current track",
                     "aria-label": "Stop recording current track",
                     "data-position-to": "window",
@@ -20,7 +20,7 @@
                     "id": "gpscapture-play",
                     "href": "#",
                     "data-icon": "custom",
-                   
+                    "tabindex":2,
                     "aria-label": "Start recording a new track",
                     "role": "button"
                 },
@@ -31,7 +31,7 @@
                     "id": "gpscapture-records",
                     "href": "saved-tracks-records.html",
                     "data-icon": "custom",
-                    
+                    "tabindex":3,
                     "aria-label": "Goto Grid View of Digital Memories for open track",
                     "role": "button",
                     "aria-flowto": "gps-capture-footer"

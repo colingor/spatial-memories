@@ -7,7 +7,8 @@
         "aria-label": "Open Camera to make a picture memory.",
         "aria-disabled": false,
         "disabled": false,
-        "role": "button"
+        "role": "button",
+        "tabindex":4
     },
     "map": {
         "name": "Sound",
@@ -17,7 +18,8 @@
         "aria-label": "Open Audio recorder to make a sound memory.",
          "aria-disabled": false ,
         "disabled": false,
-        "role": "button"
+        "role": "button",
+        "tabindex":5
     },
     "capture": {
         "name": "Text",
@@ -27,6 +29,7 @@
         "aria-label": "Open Text editor to make a text memory.",
          "aria-disabled": false ,
          "disabled": false,
-        "role": "button"
+        "role": "button",
+        "tabindex":6
     }
 }
