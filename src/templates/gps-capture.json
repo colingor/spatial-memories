@@ -1,7 +1,11 @@
 {
     "body": {
+      
+            
+        
         "page-header": {
             "item1": {
+              
                 "a": {
                     "id": "gpscapture-stop-button",
                     "href": "#gpscapture-confirm-popup",
@@ -11,22 +15,26 @@
                     "data-label": "Stop recording current track",
                     "aria-label": "Stop recording current track",
                     "data-position-to": "window",
+                    "aria-flowto": "gpscapture-play",
                     "role": "button"
                 },
                 "value": "Stop Track"
             },
             "item2": {
+                "h1":{
                 "a": {
                     "id": "gpscapture-play",
                     "href": "#",
                     "data-icon": "custom",
                     "tabindex":2,
                     "aria-label": "Start recording a new track",
+                    "aria-flowto": "gpscapture-records",
                     "role": "button"
                 },
                 "value": "Start Track"
-            },
+            }},
             "item3": {
+             
                 "a": {
                     "id": "gpscapture-records",
                     "href": "saved-tracks-records.html",
@@ -34,12 +42,13 @@
                     "tabindex":3,
                     "aria-label": "Goto Grid View of Digital Memories for open track",
                     "role": "button",
-                    "aria-flowto": "gps-capture-footer"
+                    "aria-flowto": "photo"
                     
                 },
                 "value": "Digital Memories"
             }
         }
+      
     },
     "popups": {
         "popup1":{

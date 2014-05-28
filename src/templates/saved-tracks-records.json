@@ -7,14 +7,16 @@
                 "data-role": "button",
                 "data-icon": "bars",
                 "data-theme": "c",
-                "value": "Memory Tracks"
+                "value": "Tracks",
+                "tabindex": 1
             },
             "records-annotations":{
                 "id" : "records-annotations",
                 "data-role": "button",
                 "data-icon": "grid",
                 "data-theme": "c",
-                "value": "Digital Memories"
+                "value": "Memories",
+                "tabindex": 2
             }
         }
     },
@@ -42,21 +44,24 @@
             "href": "index.html",
             "class": "home-button",
             "data-icon": "custom",
-            "aria-label": "Goto App Home"
+            "aria-label": "Go to App Home",
+            "tabindex": 3
         },
         "map": {
             "name": "Map",
             "href": "gps-capture.html",
             "class": "map-button",
             "data-icon": "custom",
-            "aria-label": "Go back to Map View"
+            "aria-label": "Go back to Map View",
+            "tabindex": 4
         },
         "capture": {
             "name": "Digital Memories",
             "href": "saved-tracks-records.html",
             "class": "records-button",
             "data-icon": "custom",
-            "aria-label": "Stay on Digital Memories Views"
+            "aria-label": "Stay on Digital Memories Views",
+            "tabindex": 5
             
         }
     }

@@ -1,5 +1,6 @@
 {
     "home": {
+        "id": "photo",
         "name": "Pictures",
         "href": "#",
         "class": "photo-button",
@@ -7,10 +8,12 @@
         "aria-label": "Open Camera to make a picture memory.",
         "aria-disabled": false,
         "disabled": false,
+        "aria-flowto": "audio",
         "role": "button",
         "tabindex":4
     },
     "map": {
+        "id": "audio",
         "name": "Sound",
         "href": "#",
         "class": "audio-button",
@@ -18,10 +21,12 @@
         "aria-label": "Open Audio recorder to make a sound memory.",
          "aria-disabled": false ,
         "disabled": false,
+        "aria-flowto": "text",
         "role": "button",
         "tabindex":5
     },
     "capture": {
+        "id": "text",
         "name": "Text",
         "href": "#",
         "class": "text-button",
@@ -30,6 +35,7 @@
          "aria-disabled": false ,
          "disabled": false,
         "role": "button",
+        "aria-flowto": "zoomin",
         "tabindex":6
     }
 }
