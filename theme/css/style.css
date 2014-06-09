@@ -1,5 +1,10 @@
 /*** Spatial Memories CSS Customizations ***/
 
+/* Prevents the Open/Copy popup from appearing on long press on a link */
+body {
+    -webkit-touch-callout: none !important;
+}
+
 #home-page h2{
     display: none;
 }
