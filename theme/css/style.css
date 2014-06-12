@@ -289,3 +289,8 @@ li.active .saved-records-list-synced-false {
 #annotate-gps-colour-pick-container > div{
     width: 153%;
 }
+
+#annotate-gps-label{
+    display:block;
+    font-size: 16px;
+}
