@@ -40,7 +40,7 @@
                     "href": "saved-tracks-records.html",
                     "data-icon": "custom",
                     "tabindex":3,
-                    "aria-label": "Goto Grid View of Digital Memories for open track",
+                    "aria-label": "Digital Memories list view",
                     "role": "button",
                     "aria-flowto": "photo"
                     
