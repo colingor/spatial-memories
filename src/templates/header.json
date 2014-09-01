@@ -1,4 +1,16 @@
 {
     "title": "Spatial Memories",
-    "buttons" : {}
+    "buttons" : {
+        "home": {
+            "name": "Home",
+            "href": "index.html",
+            "class": "icon-home",
+            "data-icon": "home",
+            "data-inline": "true",
+            "data-role": "button",
+            "id": "home-button",
+            "aria-label": "Go to home page",
+            "value": "Home"
+        }
+    }
 }
