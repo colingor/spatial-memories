@@ -35,7 +35,6 @@
          "aria-disabled": false ,
          "disabled": false,
         "role": "button",
-        "aria-flowto": "gpscapture-stop-button",
         "tabindex":6
     }
 }
